@@ -1,0 +1,14 @@
+{
+  "pH":               { "min": 6.5,  "max": 8.5,  "typical": 7.2,  "critical_low": 6.0,  "critical_high": 9.0  },
+  "dissolved_oxygen": { "min": 5.0,  "max": 9.0,  "typical": 6.5,  "critical_low": 4.0,  "critical_high": 12.0 },
+  "turbidity":        { "min": 5.0,  "max": 15.0, "typical": 9.0,  "critical_low": 1.0,  "critical_high": 50.0 },
+  "ammonia":          { "min": 0.0,  "max": 1.5,  "typical": 0.5,  "critical_low": 0.0,  "critical_high": 2.0  },
+  "temperature":      { "min": 26.0, "max": 32.0, "typical": 28.5, "critical_low": 22.0, "critical_high": 35.0 },
+  "physics_rules": {
+    "temp_vs_DO":          "At temperature T (°C), max dissolved O2 solubility = 14.62 - (0.3898 * T) + (0.006969 * T^2) - (0.00005896 * T^3). If reported DO exceeds this, sensor is FAULTY.",
+    "rain_vs_turbidity":   "If rainfall > 5mm/hr, turbidity must increase within 20 minutes. If turbidity stays flat, sensor is SUSPICIOUS.",
+    "ammonia_vs_pH":       "High ammonia (>1.5 ppm) and high pH (>8.0) cannot coexist normally. If both are high simultaneously, flag as cross-sensor conflict.",
+    "DO_vs_time_of_night": "Between 01:00 and 06:00 with no aeration, dissolved O2 must trend downward due to zero photosynthesis. A spike in this window is physically impossible.",
+    "temp_daily_swing":    "Water temperature cannot change more than 3°C in any 30-minute window naturally. Larger swings indicate sensor fault."
+  }
+}

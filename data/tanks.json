@@ -1,0 +1,54 @@
+{
+  "last_updated": "2026-05-29T00:00:00",
+  "tanks": {
+    "calcium_oxide": {
+      "display_name": "Calcium Oxide (CaO)",
+      "purpose": "Raises pH when water becomes too acidic",
+      "capacity_L": 50,
+      "current_L": 47.5,
+      "price_per_L": 12,
+      "unit": "L",
+      "low_threshold_percent": 20,
+      "status": "OK"
+    },
+    "sodium_thiosulfate": {
+      "display_name": "Sodium Thiosulfate",
+      "purpose": "Neutralizes chlorine and lowers pH if too alkaline",
+      "capacity_L": 30,
+      "current_L": 28.0,
+      "price_per_L": 80,
+      "unit": "L",
+      "low_threshold_percent": 20,
+      "status": "OK"
+    },
+    "aeration_pump": {
+      "display_name": "Aeration Pump",
+      "purpose": "Increases dissolved oxygen in water",
+      "capacity_mins": 480,
+      "current_mins": 480,
+      "unit": "mins",
+      "status": "OFF",
+      "low_threshold_percent": 10
+    },
+    "potassium_permanganate": {
+      "display_name": "Potassium Permanganate",
+      "purpose": "Reduces ammonia and kills parasites",
+      "capacity_L": 20,
+      "current_L": 19.0,
+      "price_per_L": 45,
+      "unit": "L",
+      "low_threshold_percent": 20,
+      "status": "OK"
+    },
+    "fish_feed": {
+      "display_name": "Fish Feed",
+      "purpose": "Scheduled feeding for all ponds",
+      "capacity_kg": 50,
+      "current_kg": 48.0,
+      "price_per_kg": 30,
+      "unit": "kg",
+      "low_threshold_percent": 15,
+      "status": "OK"
+    }
+  }
+}

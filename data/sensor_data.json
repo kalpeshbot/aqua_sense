@@ -1,0 +1,107 @@
+{
+  "last_updated": "2026-05-29T19:55:47.211732",
+  "ponds": {
+    "pond_1": {
+      "name": "Pond 1",
+      "fish_species": "Tilapia",
+      "capacity_liters": 50000,
+      "sensors": {
+        "pH": {
+          "value": 11.36,
+          "unit": "pH",
+          "status": "CRITICAL"
+        },
+        "dissolved_oxygen": {
+          "value": 3.06,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "turbidity": {
+          "value": 45.34,
+          "unit": "NTU",
+          "status": "WARNING"
+        },
+        "ammonia": {
+          "value": 2.51,
+          "unit": "ppm",
+          "status": "CRITICAL"
+        },
+        "temperature": {
+          "value": 18.13,
+          "unit": "\u00b0C",
+          "status": "CRITICAL"
+        }
+      },
+      "risk_level": "SAFE",
+      "last_dose": null
+    },
+    "pond_2": {
+      "name": "Pond 2",
+      "fish_species": "Catfish",
+      "capacity_liters": 75000,
+      "sensors": {
+        "pH": {
+          "value": 3.77,
+          "unit": "pH",
+          "status": "CRITICAL"
+        },
+        "dissolved_oxygen": {
+          "value": 2.62,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "turbidity": {
+          "value": 46.96,
+          "unit": "NTU",
+          "status": "WARNING"
+        },
+        "ammonia": {
+          "value": 2.68,
+          "unit": "ppm",
+          "status": "CRITICAL"
+        },
+        "temperature": {
+          "value": 20.33,
+          "unit": "\u00b0C",
+          "status": "CRITICAL"
+        }
+      },
+      "risk_level": "SAFE",
+      "last_dose": null
+    },
+    "pond_3": {
+      "name": "Pond 3",
+      "fish_species": "Rohu",
+      "capacity_liters": 60000,
+      "sensors": {
+        "pH": {
+          "value": 6.03,
+          "unit": "pH",
+          "status": "WARNING"
+        },
+        "dissolved_oxygen": {
+          "value": 4.49,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "turbidity": {
+          "value": 34.19,
+          "unit": "NTU",
+          "status": "WARNING"
+        },
+        "ammonia": {
+          "value": 3.35,
+          "unit": "ppm",
+          "status": "CRITICAL"
+        },
+        "temperature": {
+          "value": 29.11,
+          "unit": "\u00b0C",
+          "status": "NORMAL"
+        }
+      },
+      "risk_level": "SAFE",
+      "last_dose": null
+    }
+  }
+}

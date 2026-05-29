@@ -1,0 +1,23 @@
+{
+  "pond_1": {
+    "calcium_oxide_L":          { "auto_limit": 15, "owner_limit": 25, "absolute_max": 30 },
+    "sodium_thiosulfate_L":     { "auto_limit": 5,  "owner_limit": 10, "absolute_max": 12 },
+    "potassium_permanganate_L": { "auto_limit": 3,  "owner_limit": 6,  "absolute_max": 8  },
+    "aeration_pump_mins":       { "auto_limit": 60, "owner_limit": 120,"absolute_max": 180 },
+    "fish_feed_kg":             { "auto_limit": 2,  "owner_limit": 4,  "absolute_max": 5  }
+  },
+  "pond_2": {
+    "calcium_oxide_L":          { "auto_limit": 18, "owner_limit": 30, "absolute_max": 36 },
+    "sodium_thiosulfate_L":     { "auto_limit": 6,  "owner_limit": 12, "absolute_max": 15 },
+    "potassium_permanganate_L": { "auto_limit": 4,  "owner_limit": 8,  "absolute_max": 10 },
+    "aeration_pump_mins":       { "auto_limit": 60, "owner_limit": 120,"absolute_max": 180 },
+    "fish_feed_kg":             { "auto_limit": 3,  "owner_limit": 5,  "absolute_max": 6  }
+  },
+  "pond_3": {
+    "calcium_oxide_L":          { "auto_limit": 16, "owner_limit": 27, "absolute_max": 32 },
+    "sodium_thiosulfate_L":     { "auto_limit": 5,  "owner_limit": 11, "absolute_max": 13 },
+    "potassium_permanganate_L": { "auto_limit": 3,  "owner_limit": 7,  "absolute_max": 9  },
+    "aeration_pump_mins":       { "auto_limit": 60, "owner_limit": 120,"absolute_max": 180 },
+    "fish_feed_kg":             { "auto_limit": 2,  "owner_limit": 4,  "absolute_max": 5  }
+  }
+}
